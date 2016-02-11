@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  CirclingCircle
+//
+//  Created by Sunil Rao on 05/11/15.
+//  Copyright © 2015 Razorthink. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#endif
+
+#ifdef __OBJC__
+
+#import "CCErrorClass.h"
+#import "AppCommon.h"
+#import "DesignSheet.h"
+
+@class CCErrorClass;
+#endif
